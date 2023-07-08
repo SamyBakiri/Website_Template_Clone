@@ -87,7 +87,7 @@ hr{
     .container{
         width: 970px;
     }
-}
+}/**/
 @media (min-width: 1200px){
     /* .services-img{
         display: block;
