@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     
@@ -11,6 +12,9 @@ body{
 header{
     width: 100%;
     padding: 20px;  
+    position: fixed;
+    background-color: whitesmoke;
+    z-index: 99;
 }
 .links{
     position: relative;
