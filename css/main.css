@@ -19,8 +19,10 @@ header{
 .links{
     position: relative;
 }
+
 .container{
     margin: 0 auto;
+    
    
 }
 .header-content{
@@ -144,7 +146,7 @@ ul :hover a{
     background-image: url(../assets/wp7558832.jpg);
     background-size: cover;
     width: 100%;
-    min-height: 90vh;
+    min-height: 90svh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,7 +171,7 @@ ul :hover a{
     padding-top: 60px;
    
     width: 100%;
-    min-height: 70vh;
+    min-height: 70svh;
 }
 .second p{
     color: #777;
@@ -187,6 +189,8 @@ ul :hover a{
    width:300px ;
    text-align: center;
    line-height: 200%;
+   box-shadow: 0 0 15px;
+   padding: 20px 0;
 }
 i{
     color: #10cab7;
@@ -198,7 +202,7 @@ i{
     flex-wrap: wrap;
 }
 .Services{
-    min-height: 100vh;
+    min-height: 100svh;
     margin: 0 auto;
     text-align: center;
 }
@@ -283,7 +287,7 @@ i{
 
 }
 .portfolio{
-    min-width: 100vh;
+    min-height: 100svh;
     text-align: center;
 }
 .portfolio h2{
@@ -307,10 +311,9 @@ i{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  
 }
-.portfolio-content :nth-child(2){
-    margin: 0 35px;
-}
+
 
 .portfolio img{
     width: 100%;
@@ -321,6 +324,16 @@ i{
     height: auto;
     text-align: start;
     line-height: 180%;
+    margin: 15px;
+    box-shadow: 0 0 15px;
+    
+}
+.img-desc h3{
+    padding-left: 15px;
+
+}
+.img-desc p{
+    padding-left: 20px;
 }
 
 
