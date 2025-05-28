@@ -18,6 +18,8 @@ header{
 }
 .links{
     position: relative;
+    cursor:pointer;
+    transition: 0.5s;
 }
 
 .container{
@@ -55,13 +57,19 @@ ul{
     list-style: none;
     right: 0;
     top:40px;
-   
+    box-shadow: 0 0 15px black;
     color: #f6f6f6;
     width: 200px;
 }
 .links:hover ul{
     display: block;
     
+}
+.clicked{
+    display: block;
+}
+.iconBackgroundColor{
+    background-color: rgb(194, 189, 189);
 }
 hr{
     color: red;
@@ -75,6 +83,7 @@ hr{
     width: 200px;
     transition: 0.5s;
     font-size:1em ;
+    
     
 }
 
@@ -137,10 +146,14 @@ hr{
     width: 30px;
    
 }
+.icon-menu .iconClicked{
+    width: 30px;
+}
 
 ul :hover a{
    
     padding-left: 25px;
+    background-color: #dad6d6;
  }
  .home{
     background-image: url(../assets/wp7558832.jpg);
